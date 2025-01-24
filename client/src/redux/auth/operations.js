@@ -2,7 +2,7 @@ import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 //! VERCEL:
-axios.defaults.baseURL = 'task-pro-8852.vercel.app';
+axios.defaults.baseURL = 'task-pro-zeta.vercel.app';
 
 //! LOCAL:
 //axios.defaults.baseURL = 'http://localhost:3000';
