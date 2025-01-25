@@ -31,6 +31,7 @@
     "react-widgets": "^5.8.4",
     "redux-persist": "^6.0.0",
     "styled-components": "^6.1.11",
+    "vercel": "^39.3.0",
     "yup": "^1.4.0"
   },
   "devDependencies": {
