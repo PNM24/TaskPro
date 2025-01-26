@@ -1,9 +1,11 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
+//! ONRENDER:
+//axios.defaults.baseURL = 'taskpro-server.onrender.com/taskpro';
 
-axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'taskpro-server.onrender.com/taskpro';
-
+//! LOCAL:
+axios.defaults.baseURL = 'http://localhost:3000';
 
 const utils = {
   setAuthHeader: token =>
