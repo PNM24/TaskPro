@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-//! VERCEL:
-//axios.defaults.baseURL = 'task-pro-serv.vercel.app';
+//! ONRENDER:
+axios.defaults.baseURL = 'taskpro-server.onrender.com/taskpro';
 
 //! LOCAL:
 //axios.defaults.baseURL = 'http://localhost:3000';
